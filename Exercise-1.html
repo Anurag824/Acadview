@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<head>
+<title>Intro</title>
+<style>
+div{
+	margin: 0 auto;
+	text-align: center;
+	background: #cacaca;
+	height: 500px;
+	width: 400px;
+	border: 2px solid #555555;
+	border-radius: 60px 160px;
+	box-shadow: 10px 10px 6px -6px black;
+}
+h1{
+	color: red;
+}
+h2{
+	color: #404040;
+}
+.im{
+	height: 100px;
+	width: 95px;
+	background: url("dp.png");
+	background-size: cover;
+	border-radius: 20px;
+}
+input,select{
+	float: right;
+	position: relative;
+	right: 25px;
+	width: 200px;
+}
+input[type="submit"]{
+	background:red;
+	border: 1px solid black;
+	border-radius: 20px;
+	color: white;	
+	height: 30px;
+	width: 160px;
+	position: relative;
+	left:-110px;
+}
+#w,input,select{
+	position: relative;
+	top:15px;
+}
+</style>
+</head>
+<body>
+<div>
+	<h1>Introduction</h1>
+	<form>
+		<div class="im"></div>
+		<h2>LIKES:<br>
+		Reading web novels, playing games and listening to music.<br>
+		<span id="w">Name:
+		<input type="text" placeholder="Anurag Kushwaha"><br>
+		Roll No:
+		<input type="number" placeholder="1610991153"><br>
+		Semester:
+		<input type="number" placeholder="6"><br>
+		Gender:
+		<input type="text" placeholder="Male"><br>
+		Course:
+		<select name="course">
+		<option value="CSE">CSE</option>
+		<option value="ECE">ECE</option>
+		<option value="ME">ME</option>
+		<option value="EE">EE</option>
+		</select></span>
+		</h2>
+		<input type="submit">
+	</form>
+</div>
+</body>
+</html>
